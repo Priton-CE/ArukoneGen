@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13) 
-project(aufgabe1)
+project(arukone)
 set(CMAKE_C_STANDARD 23)
 
 set(SOURCE_FILES
@@ -8,4 +8,4 @@ set(SOURCE_FILES
     src/arukone.c
 )
 
-add_executable(aufgabe1 ${SOURCE_FILES})
+add_executable(arukone ${SOURCE_FILES})
